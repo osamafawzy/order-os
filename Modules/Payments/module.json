@@ -1,0 +1,11 @@
+{
+    "name": "Payments",
+    "alias": "payments",
+    "description": "Payment processing through pluggable gateways (strategy pattern).",
+    "keywords": [],
+    "priority": 3,
+    "providers": [
+        "Modules\\Payments\\Providers\\PaymentsServiceProvider"
+    ],
+    "files": []
+}

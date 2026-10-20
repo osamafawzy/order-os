@@ -1,0 +1,22 @@
+{
+    "name": "order-os/orders",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Orders\\": "app/",
+            "Modules\\Orders\\Database\\Factories\\": "database/factories/",
+            "Modules\\Orders\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Orders\\Tests\\": "tests/"
+        }
+    }
+}

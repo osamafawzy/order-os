@@ -1,0 +1,11 @@
+{
+    "name": "Orders",
+    "alias": "orders",
+    "description": "Orders, their items and the order lifecycle.",
+    "keywords": [],
+    "priority": 2,
+    "providers": [
+        "Modules\\Orders\\Providers\\OrdersServiceProvider"
+    ],
+    "files": []
+}
